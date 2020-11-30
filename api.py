@@ -1,7 +1,6 @@
 #store data to dict
-#define a route like user = post that is going to create a new record for a student
-#define a route student ID - paramter (google flask root parameters)
-#2 methods that the root accepts, get - info about the student, delete - delete
+#define a route like user = post that is going to create a new dict, then delete a specific user.
+
 
 from flask import Flask, request, jsonify
 
